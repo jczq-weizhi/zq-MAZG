@@ -50,7 +50,7 @@ Object.keys(zq_cookies).forEach((item) => {
              console.log(`--------第 ${k + 1} 个账号收益查询中--------\n`)
              await nickname(zq_cookie2)
              if ($.message.length != 0) {
-                 message += "账号" + (k + 1) + "： \n" + ${nickname1} + " \n" + $.message + " \n"
+                 message += "账号" + (k + 1) + "： \n" + $.nickname + " \n" + $.message + " \n"
              }
              await $.wait(4000);
              console.log("\n\n")
