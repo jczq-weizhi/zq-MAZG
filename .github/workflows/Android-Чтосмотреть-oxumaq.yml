@@ -26,6 +26,6 @@ jobs:
           
           node Android-Чтосмотреть-oxumaq.js
         env:
-          zqwzbody: ${{ secrets.zqwzbody }}
+
           zqwzbody1: ${{ secrets.zqwzbody1 }}
           zq_timebody: ${{ secrets.zq_timebody }}
