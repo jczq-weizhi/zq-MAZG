@@ -21,7 +21,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【Android-Чтосмотреть-birbaxın.】'
+      - name: '运行 【Android-Чтосмотреть-birbaxın】'
         run: |
           
           node Android-Чтосмотреть-birbaxın.js
