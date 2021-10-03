@@ -36,7 +36,7 @@ if (zq_timebody) {
     }
 } else if($.isNode()) {
     var fs = require("fs");
-    zq_timebody = fs.readFileSync("zq_timebody.txt", "utf8");
+    //zq_timebody = fs.readFileSync("zq_timebody.txt", "utf8");
     if (zq_timebody !== `undefined`) {
         zq_timebodys = zq_timebody.split("\n");
     } else {
@@ -63,7 +63,7 @@ if (zqwzbody) {
     }
 } else if($.isNode()) {
     var fs = require("fs");
-    zqwzbody = fs.readFileSync("zqwzbody.txt", "utf8");
+    //zqwzbody = fs.readFileSync("zqwzbody.txt", "utf8");
     if (zqwzbody !== `undefined`) {
         zqwzbodys = zqwzbody.split("\n");
     } else {
