@@ -1,4 +1,4 @@
-name: Android-Чтосмотреть-birbaxın
+name: Android-Чтосмотреть-看看
 on:
   workflow_dispatch:
   schedule:
@@ -21,7 +21,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【Android-Чтосмотреть-看看】'
+      - name: '运行 【Android-Чтосмотреть-birbaxın】'
         run: |
           
           node Android-Чтосмотреть-birbaxın.js
