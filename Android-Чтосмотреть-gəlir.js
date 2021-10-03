@@ -113,8 +113,8 @@ function today_score(zq_cookie1,nickname1,timeout = 0) {
                     console.log('\n今日收益总计:'+result.user.today_score)
                     console.log('\n当前金币总数:'+result.user.score)
                     console.log('\n折合人民币总数:'+result.user.money)
-                    $.message + $.nickname1 = `\n今日收益总计:${result.user.today_score}金币\n当前金币总数:${result.user.score}金币 \n折合人民币总数:${result.user.money}元`
-                    //$.msg($.name, "", `昵称:${nickname1}\n今日收益总计:${result.user.today_score}金币\n当前金币总数:${result.user.score}金币 \n折合人民币总数:${result.user.money}元`);
+                    //$.message = `\n今日收益总计:${result.user.today_score}金币\n当前金币总数:${result.user.score}金币 \n折合人民币总数:${result.user.money}元`
+                    $.msg($.name, "", `$.message昵称:${nickname1}\n今日收益总计:${result.user.today_score}金币\n当前金币总数:${result.user.score}金币 \n折合人民币总数:${result.user.money}元`);
                 }else{
                      console.log(result)
                 }
