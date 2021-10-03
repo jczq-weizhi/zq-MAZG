@@ -21,7 +21,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【Android-Чтосмотреть-Rifah】'
+      - name: '运行 【Android-Чтосмотреть-福利】'
         run: |
           
           node Android-Чтосмотреть-Rifah.js
