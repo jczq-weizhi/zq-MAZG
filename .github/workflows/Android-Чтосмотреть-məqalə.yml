@@ -1,4 +1,4 @@
-name: Android-Чтосмотреть-məqalə
+name: Android-Чтосмотреть-翻倍
 on:
   workflow_dispatch:
   schedule:
@@ -21,7 +21,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【Android-Чтосмотреть-翻倍】'
+      - name: '运行 【Android-Чтосмотреть-məqalə】'
         run: |
           
           node Android-Чтосмотреть-məqalə.js
