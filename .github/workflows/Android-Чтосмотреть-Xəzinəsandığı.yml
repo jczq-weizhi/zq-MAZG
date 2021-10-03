@@ -1,4 +1,4 @@
-name: Android-Чтосмотреть-Xəzinəsandığı
+name: Android-Чтосмотреть-宝箱
 on:
   workflow_dispatch:
   schedule:
@@ -21,7 +21,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【Android-Чтосмотреть-宝箱】'
+      - name: '运行 【Android-Чтосмотреть-Xəzinəsandığı】'
         run: |
           
           node Android-Чтосмотреть-Xəzinəsandığı.js
