@@ -1,4 +1,4 @@
-name: Android-Чтосмотреть-axtarış
+name: Android-Чтосмотреть-搜索
 on:
   workflow_dispatch:
   schedule:
