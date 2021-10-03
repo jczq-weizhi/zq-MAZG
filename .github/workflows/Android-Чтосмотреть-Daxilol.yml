@@ -2,7 +2,7 @@ name: Android-Чтосмотреть-签到
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 7 * * *'
+    - cron: '1 5 * * *'
   watch:
     types: started
   repository_dispatch:
@@ -27,3 +27,5 @@ jobs:
           node Android-Чтосмотреть-Daxilol.js
         env:
           zqqdbody: ${{ secrets.zqqdbody }}
+          DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN }}
+          DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
