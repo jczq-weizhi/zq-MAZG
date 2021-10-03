@@ -3,7 +3,7 @@ const notify = $.isNode() ? require('./sendNotify') : '';
 message = ""
 
 
-let zqwzbody= $.isNode() ? (process.env.zqwzbody ? process.env.zqwzbody : "") : ($.getdata('zqwzbody') ? $.getdata('zqwzbody') : "")
+let zqwzbody= $.isNode() ? (process.env.zqwzbody ? process.env.zqwzbody : "") ? (process.env.zqwzbody1 ? process.env.zqwzbody1 : "") : ($.getdata('zqwzbody') ? $.getdata('zqwzbody') : "")
 let zqwzbodyArr = []
 let zqwzbodys = ""
 
