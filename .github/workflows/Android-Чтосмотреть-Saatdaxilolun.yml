@@ -27,3 +27,5 @@ jobs:
           node Android-Чтосмотреть-Saatdaxilolun.js
         env:
           zq_cookie: ${{ secrets.zq_cookie }}
+          DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN }}
+          DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
