@@ -1,4 +1,4 @@
-name: Android-Чтосмотреть-gəlir
+name: Android-Чтосмотреть-收益
 on:
   workflow_dispatch:
   schedule:
@@ -21,7 +21,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【Android-Чтосмотреть-收益】'
+      - name: '运行 【Android-Чтосмотреть-gəlir】'
         run: |
           
           node Android-Чтосмотреть-gəlir.js
