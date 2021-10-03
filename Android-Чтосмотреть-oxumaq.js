@@ -9,7 +9,7 @@ let zqwzbodyArr = []
 let zqwzbodys = ""
 
 //let zq_timebody= $.isNode() ? (process.env.zq_timebody ? process.env.zq_timebody : "") : ($.getdata('zq_timebody') ? $.getdata('zq_timebody') : "")
-let zqwzbody= $.isNode() ? require('./zq_timebody') : '';
+let zq_timebody= $.isNode() ? require('./zq_timebody') : '';
 let zq_timebodyArr = []
 let zq_timebodys = ""
 let zqwznum
