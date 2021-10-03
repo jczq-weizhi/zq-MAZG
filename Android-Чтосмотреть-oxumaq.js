@@ -7,10 +7,6 @@ let zqwzbody= $.isNode() ? (process.env.zqwzbody ? process.env.zqwzbody : "") : 
 let zqwzbodyArr = []
 let zqwzbodys = ""
 
-let zqwzbody1= $.isNode() ? (process.env.zqwzbody1 ? process.env.zqwzbody1 : "") : ($.getdata('zqwzbody') ? $.getdata('zqwzbody') : "")
-let zqwzbody1Arr = []
-let zqwzbody1s = ""
-
 let zq_timebody= $.isNode() ? (process.env.zq_timebody ? process.env.zq_timebody : "") : ($.getdata('zq_timebody') ? $.getdata('zq_timebody') : "")
 let zq_timebodyArr = []
 let zq_timebodys = ""
