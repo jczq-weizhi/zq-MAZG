@@ -1,4 +1,4 @@
-name: Android-Чтосмотреть-Baxın
+name: Android-Чтосмотреть-浏览
 on:
   workflow_dispatch:
   schedule:
