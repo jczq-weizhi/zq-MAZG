@@ -1,4 +1,4 @@
-name: Android-Чтосмотреть-Dostum
+name: Android-Чтосмотреть-好友
 on:
   workflow_dispatch:
   schedule:
@@ -21,7 +21,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【Android-Чтосмотреть-好友】'
+      - name: '运行 【Android-Чтосмотреть-Dostum】'
         run: |
           
           node Android-Чтосмотреть-Dostum.js
