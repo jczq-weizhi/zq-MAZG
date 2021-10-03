@@ -2,7 +2,7 @@ name: Android-Чтосмотреть-oxumaq
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 7 * * *'
+    - cron: '1 0-23/6 * * *'
   watch:
     types: started
   repository_dispatch:
@@ -27,4 +27,5 @@ jobs:
           node Android-Чтосмотреть-oxumaq.js
         env:
           zqwzbody: ${{ secrets.zqwzbody }}
+          zqwzbody1: ${{ secrets.zqwzbody1 }}
           zq_timebody: ${{ secrets.zq_timebody }}
