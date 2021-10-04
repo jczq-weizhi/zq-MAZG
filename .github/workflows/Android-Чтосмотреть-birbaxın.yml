@@ -2,7 +2,7 @@ name: Android-Чтосмотреть-看看
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 8 * * *'
+    - cron: '2 0 * * *'
   watch:
     types: started
   repository_dispatch:
