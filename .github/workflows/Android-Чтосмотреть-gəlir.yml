@@ -2,7 +2,7 @@ name: Android-Чтосмотреть-收益
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 7,11,14,18,23 * * *'
+    - cron: '1 23,3,6,10,15 * * *'
   watch:
     types: started
   repository_dispatch:
