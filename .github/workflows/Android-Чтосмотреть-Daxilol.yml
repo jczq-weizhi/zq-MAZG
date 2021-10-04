@@ -2,7 +2,7 @@ name: Android-Чтосмотреть-签到
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 5 * * *'
+    - cron: '1 21 * * *'
   watch:
     types: started
   repository_dispatch:
