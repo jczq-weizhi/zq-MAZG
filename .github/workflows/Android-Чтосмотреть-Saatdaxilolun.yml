@@ -2,7 +2,7 @@ name: Android-Чтосмотреть-打卡
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 5,8,9 * * *'
+    - cron: '3 21,23,1 * * *'
   watch:
     types: started
   repository_dispatch:
